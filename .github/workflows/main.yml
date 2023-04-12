@@ -17,4 +17,6 @@ on:
 jobs:
   # This workflow calls a resusable workflow
  call-workflow-in-another-repo:
-    uses: whsalzar-org/RepoB/.github/workflows/remoterepo.yml@v1
+    uses: whsalzar-org/RepoB/.github/workflows/remoterepo.yml@main
+    with:
+      config-path: .github/labeler.yml
