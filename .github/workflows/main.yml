@@ -15,6 +15,6 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
+  # This workflow calls a resusable workflow
  call-workflow-in-another-repo:
-    uses: whsalzar-org/RepoB/.github/workflows/blank.yml@v1
+    uses: whsalzar-org/RepoB/.github/workflows/remoterepo.yml@v1
