@@ -19,4 +19,6 @@ jobs:
  call-workflow-in-another-repo:
     uses: whsalazar-org/RepoB/.github/workflows/remoterepo.yml@main
     with:
-      config-path: .github/labeler.yml  
+      config-path: .github/labeler.yml
+      repo_name: "RepoA"
+      repo_owner: "whsalazar-org"
