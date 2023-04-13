@@ -21,4 +21,4 @@ jobs:
     with:
       config-path: .github/labeler.yml
       repo_name: "RepoA"
-      repo_owner: "whsalazar-org" 
+      repo_owner: "whsalazar-org"  
