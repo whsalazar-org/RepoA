@@ -16,7 +16,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow calls a resusable workflow
- call-workflow-in-another-repo:
+ RepoA-JobB:
     uses: whsalazar-org/RepoB/.github/workflows/remoterepo.yml@main
     with:
       config-path: .github/labeler.yml
